@@ -1,0 +1,42 @@
+{
+  "name": "async-loader",
+  "version": "1.0.0",
+  "authors": ["@cliren on GitHub"],
+  "description": "A light weight asynchronous module loader",
+  "main": "async-loader.js",
+  "scripts": {
+    "start": "npm install && gulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^4.4.5",
+    "babel-loader": "^4.0.0",
+    "babel-runtime": "^4.4.5",
+    "browser-sync": "^2.2.1",
+    "del": "^1.1.1",
+    "es6-loader": "^0.2.0",
+    "exports-loader": "^0.6.2",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.8.4",
+    "gulp-util": "^3.0.1",
+    "gulp-webpack-build": "^0.5.1",
+    "handlebars-loader": "^0.1.8",
+    "istanbul-instrumenter-loader": "^0.1.2",
+    "jasmine": "^2.0.1",
+    "jshint-stylish": "^0.4.0",
+    "karma": "~0.12.24",
+    "karma-coverage": "0.2.4",
+    "karma-handlebars-preprocessor": "^0.2.0",
+    "karma-jasmine": "~0.2.1",
+    "karma-phantomjs-launcher": "0.1.4",
+    "karma-spec-reporter": "0.0.13",
+    "karma-webpack": "1.2.2",
+    "lodash": "3.1.0",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^0.3.6",
+    "scriptjs": "^2.5.7",
+    "watchify": "^2.1.1",
+    "webpack": "^1.4.15"
+  }
+}

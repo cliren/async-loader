@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AsyncLoader Demo</title>
+
+    <script src="../dist/async-loader.min.js"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            AsyncLoader.load('AsyncLoader', '../dist/async-loader.js').then(function(Loader) {
+                //loaded module
+                console.log(Loader);
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

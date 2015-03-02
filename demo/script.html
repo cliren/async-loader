@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Loader Test</title>
+
+    <script src="../node_modules/scriptjs/dist/script.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+
+            $script.get('http://localhost:63342/async-loader/demo/async-loader.js', function(){
+                console.log("I am loaded");
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+<div class="content">
+
+</div>
+
+</body>
+</html>
