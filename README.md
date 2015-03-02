@@ -15,11 +15,6 @@ npm install async-loader --save-dev
 
 # API
 
-~load(moduleName, path)
-
-- moduleName {String} - name of the exported source module loaded by the path script
-- path - relative or
-
 <a name="AsyncLoader..load"></a>
 ##AsyncLoader~load(moduleName, path)
 Returns a promise
